@@ -87,3 +87,20 @@ header .header__menu:hover .header__menu-nav, .header__menu-nav:hover{
     color: var(--font-color--primary);
     font-size: calc(1rem + 2vw);
 }
+.input {
+    background-color: rgba(255,255,255,0.1);
+    outline: none;
+    width: 70vw;
+    max-width: 700px;
+    min-width: 226px;
+    height: 4vh;
+    margin: 20px auto;
+    border: 2px solid var(--bg-color--primary);
+    border-radius: 25px;
+    color: var(--font-color--primary);
+    font-size: calc(.9rem + 1vw);
+    padding: 0 20px;
+}
+::placeholder {
+    color: var(--font-color--primary);
+}
